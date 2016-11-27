@@ -35,7 +35,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(wrapText("It’s a huge world with fast flows, dangerous creatures and hidden caves.\n But for us it is native home and habitat. Let’s look why.", 1));
+        System.out.println(wrapText("It’s a huge world with fast flows, dangerous creatures and hidden caves.\n But for us it is native home and habitat. Let’s look why.", 3));
     }
 
     public static String wrapText(String text, int maxCharsPerLine) {
